@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "/styles.css">
+
+    <title>Calculator</title>
+</head>
+<body>
+    <h1 class = "head">Calculator</h1>
+<div id = "outer">
+    <div id = "calc">
+        <div id = "display-total"></div>
+        <div id = "operators">
+            <div class="row">
+                <div id = "icon" class="ac" onclick="ac()">ac</div>
+                <div id = "icon" class="sign" onclick="csign()">+/-</div>
+                <div id = "icon" class="%" onclick="percent()">%</div>
+                <div id = "icon" class="/" onclick="divide()">/</div>
+            </div>
+            <div class="row">
+                <div id = "icon" class="seven" onclick="seven()">7</div>
+                <div id = "icon" class="eight" onclick="eight()">8</div>
+                <div id = "icon" class="nine" onclick="nine()">9</div>
+                <div id = "icon" class="x" onclick="multi()">x</div>
+            </div>
+            <div class="row">
+                <div id = "icon" class="four" onclick="four()">4</div>
+                <div id = "icon" class="five" onclick="five()">5</div>
+                <div id = "icon" class="six" onclick="six()">6</div>
+                <div id = "icon" class="diff" onclick="sub()">-</div>
+            </div>
+            <div class="row">
+                <div id = "icon" class="one" onclick="one()">1</div>
+                <div id = "icon" class="two" onclick="two()">2</div>
+                <div id = "icon" class="three" onclick="three()">3</div>
+                <div id = "icon" class="add" onclick="add()">+</div>
+            </div>
+            <div class="row">
+                <div id = "icon_0" onclick="zero()">0</div>
+                <div id = "icon" class="point" onclick="point()">.</div>
+                <div id = "icon" class="equal" onclick="equal()">=</div>
+            </div>
+        </div>
+    </div>
+</div>
+    <script src = "/script.js"></script>
+</body>
+</html>
