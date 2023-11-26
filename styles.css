@@ -7,6 +7,7 @@
 .head{
     color: #FAFAFF;
     font-size: 40px;;
+    text-shadow: 5px 5px 4px black;
 }
 #calc{
     display: flex;
@@ -33,18 +34,25 @@
 #display-total{
     border-style: solid;
     display: inline;
-    width: 355px;
+    width: 375px;
     height: 100px;
     margin-bottom: 20px;
     background-color: #52796F;
     color: #CAD2C5;
     font-size: 50px;
+    overflow: scroll;
+    text-shadow: 4px 4px 5px #1E2749 ;
 }
 #icon:active{
 transform : translateY(1.5);
 }
 #icon:hover{
     transform: scale(1.1);
+    cursor: pointer;
+}
+#icon_0:hover{
+    transform: scale(1.1);
+    cursor: pointer;
 }
 #icon,#icon_0{
     display:inline;
