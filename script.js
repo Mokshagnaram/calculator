@@ -148,6 +148,9 @@ function point(){
 function equal(){
     x = Number(x);
     y =Number(y);
+     if(sign == 0){
+      total =  document.getElementById("display-total").innerText;
+    }
     if(sign == 1){
         total = x + y; 
     }
